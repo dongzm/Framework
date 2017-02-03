@@ -15,6 +15,7 @@ public class BusinessregisterDao : BaseDaoOraDDTek<Businessregister, Businessreg
 ```
 
 >5、类似有直接操作到数据库的地方（如事务、存储过程）都需要在原来的类名后面增加DDTek
+
 ```C#
 var resultList =
                     ProcedureOperationDDTek.RunProcedure<P_ComExlImpCondition, P_ComExlImpResult>(
