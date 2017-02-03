@@ -7,6 +7,7 @@
 >3、原来代码生成器生成的代码中需要修改所有DAL中的代码，在继承类后面增加DDTek,如下，我是保留了原来的功能，如果你觉得每次修改麻烦，可以直接修改源码，或者在写一个代码生成器。
 
 >4、数据库连接字符串需要修改，新的格式：Host=192.168.1.6;Port=1521;Service Name=orc;User ID=uername;Password=password;
+
 ```C#
 public class BusinessregisterDao : BaseDaoOraDDTek<Businessregister, BusinessregisterCollection>
 {
